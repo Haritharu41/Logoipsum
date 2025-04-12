@@ -2,7 +2,7 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="flex  h-[521px] gap-48 bg-brand-navey">
+    <div className="Hero_Section flex  h-[521px] gap-48 bg-brand-navey">
       <div className="Text ml-28 h-[350] w-[599px] my-[85px] flex flex-col gap-6">
         <h1 className=" font-extrabold text-7xl text-bg-primary leading-16">
           Get instant cash flow with invoice factoring

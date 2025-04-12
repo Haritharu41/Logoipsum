@@ -1,7 +1,8 @@
 import ContactSection from "./Components/ContactSection";
+import Footer from "./Components/Footer";
 import HeroSection from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
-import PaymentCollection from "./Components/PaymentCollection";
+import OutsourceSection from "./Components/OutsourceSection";
 import TaskManager from "./Components/TaskManager";
 
 function App() {
@@ -9,9 +10,10 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-      <PaymentCollection />
+      <OutsourceSection/>
       <TaskManager />
       <ContactSection />
+      <Footer/>
     </>
   );
 }

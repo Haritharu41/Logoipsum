@@ -2,8 +2,7 @@ import React from "react";
 
 function ContactSection() {
   return (
-    
-    <div className="Contact_section mt-[106px] mx-[72px] flex flex-col items-center gap-10 ">
+    <div className="Contact_section mt-[106px] px-[72px] flex flex-col items-center gap-10 ">
       <div className="Headline flex flex-col items-center ">
         <h1 className="font-extrabold text-7xl leading-16 text-brand-electric-blue">
           Contact us
@@ -35,7 +34,6 @@ function ContactSection() {
           placeholder="Business or company name"
         />
         <button className="w-48 h-11  rounded-2xl text-bg-primary bg-button-primary">
-          {" "}
           Submit
         </button>
       </form>
