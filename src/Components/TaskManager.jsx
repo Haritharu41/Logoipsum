@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
 function TaskManager() {
-
- 
   const [message, setMessage] = useState("");
   const [msgType, setMsgType] = useState("");
 
@@ -20,11 +18,7 @@ function TaskManager() {
     },
   ]);
 
-  
-
   const handleAdd = () => {
-
-
     if (task.trim() === "") {
       setMessage("❗ Please enter a task.");
       setMsgType("error");
@@ -38,7 +32,6 @@ function TaskManager() {
     setMsgType("success");
 
     setTimeout(() => setMessage(""), 1500);
-
   };
 
   const handleChange = (e) => {
@@ -124,9 +117,7 @@ function TaskManager() {
         >
           Add Task
         </button>
-
       </div>
-
     </div>
   );
 }

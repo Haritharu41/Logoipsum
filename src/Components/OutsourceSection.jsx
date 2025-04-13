@@ -43,7 +43,6 @@ export default function OutsourceSection() {
   return (
     <section className="py-14 px-6 md:py-40">
     <div className="container mx-auto px-6">
-      {/* Section Header */}
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-5xl font-semibold mb-4">Outsource payment collection</h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
@@ -51,7 +50,6 @@ export default function OutsourceSection() {
         </p>
       </div>
   
-      {/* Grid for Feature Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-15">
         {features.map((feature, index) => (
           <Feature_card key={index} title={feature.title} description={feature.description} />
