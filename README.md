@@ -35,6 +35,26 @@ yarn dev
 ```
 
 The app will be available at `http://localhost:5173` (or as specified in your Vite config).
+#
+
+
+![image](https://github.com/user-attachments/assets/d13975fa-9224-4376-9efe-0fbd9855747a)
+#
+![image](https://github.com/user-attachments/assets/b4ac3af9-6f03-4d78-a1c2-1013b042ed49)
+#
+![image](https://github.com/user-attachments/assets/3f4d1e78-0f7b-4be3-b009-0c9e6b231d4e)
+#
+![image](https://github.com/user-attachments/assets/cc2cd504-bc8f-4860-93ca-b8a67ff2634c)
+#
+![image](https://github.com/user-attachments/assets/677f561f-bc3a-4b67-a232-70214532fb16)
+
+
+
+
+
+
+
+
 
 
 Happy coding! 🎉
