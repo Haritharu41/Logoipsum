@@ -1,26 +1,27 @@
-import React from "react";
-
 function Navbar() {
   return (
-    <navbar className="Navbar flex items-center justify-between bg-bg-primary px-20  h-24  font-roboto font-medium">
-      <div className="Logo">
-        <img src="logo.png" alt="logo" />
-      </div>
+    <nav className="bg-bg-primary px-6 md:px-20 py-4 font-roboto font-medium">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+        
+        <div className="Logo">
+          <img src="logo.png"  alt="logo" className="h-8 cursor-pointer" />
+        </div>
 
-      <div className="Tab_bar flex items-center gap-4 text-text-primary  text-lg">
-        <h1>Products</h1>
-        <h1>Solutions</h1>
-        <h1>Help center</h1>
-        <h1>Get started</h1>
-      </div>
+        <div className="Tab_bar cursor-pointer flex flex-col sm:flex-row items-center gap-4 text-text-primary text-base md:text-lg">
+          <h1>Products</h1>
+          <h1>Solutions</h1>
+          <h1>Help center</h1>
+          <h1>Get started</h1>
+        </div>
 
-      <div className=" Button flex items-center  gap-4 text-button-primary ">
-        <button className="p-[18px]">Login</button>
-        <button className="font-medium text-bg-primary px-5 py-2  max-h-10 bg-button-primary rounded-2xl outline-hidden">
-          Request a demo
-        </button>
+        <div className="Button cursor-pointer flex flex-col sm:flex-row items-center gap-3 text-button-primary">
+          <button className="px-4 py-2">Login</button>
+          <button className="text-bg-primary px-5 py-2 bg-button-primary rounded-2xl">
+            Request a demo
+          </button>
+        </div>
       </div>
-    </navbar>
+    </nav>
   );
 }
 
